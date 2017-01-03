@@ -1,7 +1,7 @@
 /**
  * 
  */
-package com.board1.dto;
+package com.board2.dto;
 
 /************************************************
  * <pre>

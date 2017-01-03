@@ -14,7 +14,7 @@
     -->
     
     <!-- 적용 패키지 컨트롤러 선언?(정확한 용도가 무엇인지 확인필요) -->
-    <context:component-scan base-package="com.board1"/> 
+    <context:component-scan base-package="com.board2"/> 
     
     <!-- ViewResolber 설정 START
     **

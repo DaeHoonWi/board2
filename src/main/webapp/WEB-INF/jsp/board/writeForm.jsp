@@ -10,7 +10,7 @@
 write.jsp <br />
 
 <table width="500" cellpadding="0" cellspacing="0" border="1">
-		<form action="write" method="post">
+		<form action="write.do" method="post">
 			<tr>
 				<td > 작성자 </td>
 				<td> <input type="text" name="mWriter" size = "50"> </td>

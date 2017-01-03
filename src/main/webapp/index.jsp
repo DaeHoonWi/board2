@@ -14,7 +14,8 @@
 <body>
 
 <h1 style="color: red;">Index page 입니다.</h1><br>
-<h1 style="color: blue;"><a href="list.do">게시판 목록</a></h1>
+<h1 style="color: blue;"><a href="list.do">게시판 목록</a></h1><br>
+<h1 style="color: green;"><a href="writeForm.do">글작성</a></h1>
 
 </body>
 </html>

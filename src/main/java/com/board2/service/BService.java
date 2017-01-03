@@ -1,8 +1,8 @@
-package com.board1.service;
+package com.board2.service;
 
 import java.util.ArrayList;
 
-import com.board1.dto.ContentDTO;
+import com.board2.dto.ContentDTO;
 
 public interface BService {
 
