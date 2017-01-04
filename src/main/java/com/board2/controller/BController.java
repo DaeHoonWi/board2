@@ -60,4 +60,13 @@ public class BController {
 		
 		return "redirect:list.do";
 	}
+	
+	@RequestMapping(value = "delete.do")
+	public String delete(HttpServletRequest request, Model model) {
+		
+		BService bService = sqlSession.getMapper(BService.class);
+		bService.deleteDao(request.getParameter("mId"));
+		
+		return "redirect:list.do";
+	}
 }

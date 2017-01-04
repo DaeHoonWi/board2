@@ -8,10 +8,14 @@
 		SELECT * FROM BOARD ORDER BY MID DESC
 	</select>
 	
-	 <insert id="writeDao">
+	<insert id="writeDao">
 		INSERT INTO BOARD (MID, MWRITER, MCONTENT) VALUES (BOARD_SEQ.NEXTVAL, #{param1}, #{param2})
 	</insert>
 	
+	<delete id="deleteDao">
+		DELETE FROM BOARD WHERE MID = #{param1}
+	</delete>
+	 
 	 <!--
 	<resultMap type="org.apache.ibatis.submitted.rounding.User" id="usermap2">
 		<id column="id" property="id"/>
